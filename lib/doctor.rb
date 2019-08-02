@@ -21,8 +21,6 @@ end
 
 def new_appointment(patient, time)
   appointment = Appointment.new(patient, self, time)
-
-
 end
 
 end
