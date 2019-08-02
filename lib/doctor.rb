@@ -23,4 +23,12 @@ def new_appointment(patient, time)
   appointment = Appointment.new(patient, self, time)
 end
 
+def patients
+  appointments.map(&:patient)
+  def genres
+    songs.map(&:genre)
+  end
+
+end
+
 end
