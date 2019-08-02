@@ -25,8 +25,6 @@ end
 
 def patients
   appointments.map(&:patient)
-  def genres
-    songs.map(&:genre)
   end
 
 end
