@@ -12,8 +12,8 @@ def songs
     @songs
 end
 
-def new_song(title, genre)
-  song = Song.new(title, self, genre)
+def new_song(name, genre)
+  song = Song.new(name, self, genre)
   @songs << song
 end
 
